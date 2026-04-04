@@ -29,7 +29,7 @@ This writeup documents a full refactor of the data layer across a personal multi
 ---
 
 ## The Setup
-<img width="608" height="590" alt="infra0" src="https://github.com/user-attachments/assets/5752cc8b-5312-4142-9560-1abf8276b1b6" />
+<img width="608" height="590" alt="infra0" src="https://github.com/user-attachments/assets/70f5c717-34fd-41a2-bce3-e17317a4e951" />
 
 The algorithm system relies on four distinct machines, each with a specific role:
 
@@ -131,7 +131,7 @@ juicefs mount -d "$VOL_NAME" \
 > **Note:** You'll still need to run a Squid proxy on the VPS. It's a one-time setup, but it is an extra component to track.
 
 ### Result
-<img width="608" height="590" alt="infra1" src="https://github.com/user-attachments/assets/99fe499e-7f6a-4e1c-b73f-caea97bec3db" />
+<img width="608" height="590" alt="infra1" src="https://github.com/user-attachments/assets/300ef140-e025-463d-ac1a-cafab43e2661" />
 
 By mounting a JuiceFS shared folder as the single source of truth across all three boxes — functionally equivalent to what the Elasticsearch index previously provided — three separate syncing scripts collapsed into one. No more incremental sync handling. No more hunting across systems for bugs or data corruption.
 

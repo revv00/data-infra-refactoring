@@ -1,4 +1,4 @@
-# Solve Syncing Hell with a Shared Folder for $0.20/year
+# Solve Syncing Hell with a Shared Folder for $0.20/year ($6 after the 1st year)
 
 > *Sometimes you don't need petabyte scale. You just need three computers to agree on what is in a folder — without you having to write the code to make them agree.*
 
